@@ -8,9 +8,11 @@ const styles = {
     padding: 12,
     fontWeight: 700,
     color: "#2A363B",
+    fontSize: "medium",
+    fontFamily: "fantasy",
   },
   activeLink: {
-    color: "#E84A5F",
+    color: "#fca311",
   },
 };
 

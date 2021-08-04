@@ -17,12 +17,5 @@
   text-align: center;
   font-size: medium;
   font-family: fantasy;
-  color: blue;
-}
-
-.Contacts__button-delete {
-  text-align: center;
-  font-size: 8px;
-  font-family: fantasy;
-  color: blue;
+  color: #14213d;
 }

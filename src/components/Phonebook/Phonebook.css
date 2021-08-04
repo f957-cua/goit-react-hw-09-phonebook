@@ -8,18 +8,11 @@
   font-size: large;
   font-family: fantasy;
   margin: 10px auto;
+  color: #14213d;
 }
 
 .Input {
   margin: 0 auto 10px;
-  width: 100px;
-  height: 30px;
-}
-
-Button {
-  font-size: 12px;
-  font-family: fantasy;
-  margin: 10px auto;
   width: 100px;
   height: 30px;
 }

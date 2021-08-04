@@ -6,11 +6,15 @@ import Button from "@material-ui/core/Button";
 const styles = {
   form: {
     width: 320,
+    marginLeft: "auto",
+    marginRight: "auto",
   },
   label: {
     display: "flex",
     flexDirection: "column",
     marginBottom: 15,
+    fontSize: "medium",
+    fontFamily: "fantasy",
   },
 };
 

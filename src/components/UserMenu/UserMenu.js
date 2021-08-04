@@ -12,9 +12,20 @@ const styles = {
   avatar: {
     marginRight: 4,
   },
+  text: {
+    fontWeight: 700,
+    marginRight: 12,
+    fontSize: "small",
+    fontFamily: "fantasy",
+    color: "#14213d",
+  },
   name: {
     fontWeight: 700,
     marginRight: 12,
+    fontSize: "medium",
+    textTransform: "uppercase",
+    fontFamily: "fantasy",
+    color: "#14213d",
   },
 };
 
@@ -29,7 +40,8 @@ export default function UserMenu() {
   return (
     <div style={styles.container}>
       <img src={defaultAvatar} alt="" width="32" style={styles.avatar} />
-      <span style={styles.name}>Welcome, {name}</span>
+      <span style={styles.text}>Welcome, </span>
+      <span style={styles.name}>{name}</span>
       <Button variant="contained" onClick={onLogOut} color="primary">
         Logout
       </Button>

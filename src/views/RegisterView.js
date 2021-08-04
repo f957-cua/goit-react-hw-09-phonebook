@@ -1,16 +1,20 @@
 import React, { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { authOperations } from "../redux/auth";
 import Button from "@material-ui/core/Button";
 
 const styles = {
   form: {
     width: 320,
+    marginLeft: "auto",
+    marginRight: "auto",
   },
   label: {
     display: "flex",
     flexDirection: "column",
     marginBottom: 15,
+    fontSize: "medium",
+    fontFamily: "fantasy",
   },
 };
 
