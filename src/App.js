@@ -1,6 +1,7 @@
 import React, { useEffect, Suspense, lazy } from "react";
 import { Switch } from "react-router-dom";
 import "./App.css";
+import "./index.css";
 import AppBar from "./components/AppBar";
 import Container from "./components/Container";
 import { authOperations } from "./redux/auth";
